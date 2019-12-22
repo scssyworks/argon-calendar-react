@@ -1,9 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class TestReactComponent extends Component {
-    render() {
-        return (
-            <div>Hello there! I am a react component!</div>
-        );
-    }
-}
+export const Out = () => (
+    <div>Hello World!</div>
+);

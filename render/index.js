@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TestReactComponent from '../src';
+import { Out } from '../src';
 
-ReactDOM.render(<TestReactComponent />, document.querySelector('h1'));
+ReactDOM.render(<Out />, document.querySelector('app-root'));
